@@ -30,7 +30,7 @@ The goal is to **learn by building small projects daily/weekly** and create a pe
 ```bash
 git clone https://github.com/seyed-mohammadreza-mousavi/ml-playground-starter.git
 cd ml-playground-starter
-
+```
 ### 2. Set up environment
 Install dependencies:
 
