@@ -53,6 +53,13 @@ jupyter notebook linear_regression.ipynb
 Planned upcoming projects:
 
 - Logistic Regression
+- Support Vector Machines (SVM)
+- Decision Trees
+- Random Forests
+- Gradient Boosting (XGBoost/LightGBM)
+- Neural Networks basics
+- k-Means & Clustering
+- PCA & Dimensionality Reduction
 
 
 📜 License
