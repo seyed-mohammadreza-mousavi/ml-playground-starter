@@ -52,7 +52,7 @@ jupyter notebook linear_regression.ipynb
 
 Planned upcoming projects:
 
-Logistic Regression
+- Logistic Regression
 
 
 📜 License
