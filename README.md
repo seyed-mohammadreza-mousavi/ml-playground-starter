@@ -27,7 +27,7 @@ The goal is to **learn by building small projects daily/weekly** and create a pe
 ## 🚀 Getting Started
 
 ### 1. Clone the repo
-```bash
+```
 git clone https://github.com/seyed-mohammadreza-mousavi/ml-playground-starter.git
 cd ml-playground-starter
 ```
@@ -39,15 +39,15 @@ Install dependencies:
 3. Run a project
 
 Example: Linear Regression
-
+```
 cd 01-linear-regression
 python main.py
-
+```
 
 Or open the notebook in Jupyter/Colab:
-
+```
 jupyter notebook linear_regression.ipynb
-
+```
 📌 Roadmap
 
 Planned upcoming projects:
