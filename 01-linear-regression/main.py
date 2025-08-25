@@ -5,7 +5,7 @@ This script demonstrates Linear Regression:
 1. From scratch using Gradient Descent
 2. Using scikit-learn's LinearRegression
 
-Author: Your Name
+Author: SeyedMohammadreza Mousavi
 Repo: ml-playground-starter
 """
 
