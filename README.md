@@ -48,19 +48,18 @@ Or open the notebook in Jupyter/Colab:
 ```
 jupyter notebook linear_regression.ipynb
 ```
-📌 Roadmap
-
+## 📌 Roadmap
 Planned upcoming projects:
 
-- Logistic Regression
-- Support Vector Machines (SVM)
-- Decision Trees
-- Random Forests
-- Gradient Boosting (XGBoost/LightGBM)
-- Neural Networks basics
-- k-Means & Clustering
-- PCA & Dimensionality Reduction
-
+- [x] Linear Regression  
+- [ ] Logistic Regression  
+- [ ] Support Vector Machines (SVM)  
+- [ ] Decision Trees  
+- [ ] Random Forests  
+- [ ] Gradient Boosting (XGBoost/LightGBM)  
+- [ ] Neural Networks basics  
+- [ ] k-Means & Clustering  
+- [ ] PCA & Dimensionality Reduction  
 
 📜 License
 
