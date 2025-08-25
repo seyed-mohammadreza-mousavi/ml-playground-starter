@@ -54,19 +54,6 @@ Planned upcoming projects:
 
 Logistic Regression
 
-Support Vector Machines (SVM)
-
-Decision Trees
-
-Random Forests
-
-Gradient Boosting (XGBoost/LightGBM)
-
-Neural Networks basics
-
-k-Means & Clustering
-
-PCA & Dimensionality Reduction
 
 📜 License
 
@@ -75,6 +62,6 @@ This project is licensed under the MIT License
 
 ✨ Author
 
-Created with ❤️ by Seyed Mohammadreza Mousavi
+Created ❤️ by Seyed Mohammadreza Mousavi
 
 
