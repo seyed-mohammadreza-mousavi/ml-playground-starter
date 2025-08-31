@@ -46,5 +46,70 @@ It includes both an interactive Jupyter notebook and a Python CLI script, coveri
 
 Create a virtual environment and install dependencies:
 
-```
+```bash
 pip install -r requirements.txt
+```
+
+If no `requirements.txt` yet, install manually:
+
+```bash
+pip install numpy pandas matplotlib scikit-learn joblib
+```
+
+---
+
+## 📒 Notebook Usage
+
+Launch Jupyter and open the tutorial notebook:
+
+```bash
+jupyter notebook 02-logistic-regression/logistic_regression_complete_tutorial.ipynb
+```
+
+---
+
+## 🖥️ Script Usage
+
+Run the full tutorial:
+
+```bash
+python 02-logistic-regression/main.py --all
+```
+
+Or run specific sections:
+
+```bash
+python 02-logistic-regression/main.py --from_scratch --sklearn
+python 02-logistic-regression/main.py --tune --interpret --regpath
+python 02-logistic-regression/main.py --poly --calibrate --imbalance --multiclass --save
+```
+
+All plots and models are saved in `outputs/`.
+
+---
+
+## 📊 Example Outputs
+
+- Loss curve (from scratch)  
+- ROC and PR curves  
+- Decision boundaries (2D moons)  
+- Regularization path plots  
+- Calibration curves  
+- Saved trained pipeline (`logreg_pipeline.joblib`)
+
+---
+
+## 📝 Exercises
+
+Try extending the notebook or script by:
+- Implementing L1 (Lasso) regularization from scratch
+- Adding learning-rate schedules in gradient descent
+- Exploring threshold tuning for F1 optimization
+- Comparing logistic regression against other classifiers
+
+---
+
+## 📌 Notes
+
+- This tutorial is for **educational purposes** and demonstrates best practices for building, training, and evaluating logistic regression models.  
+- Contributions and improvements are welcome! 🚀
