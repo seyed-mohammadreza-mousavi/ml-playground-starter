@@ -52,7 +52,7 @@ jupyter notebook linear_regression.ipynb
 Planned upcoming projects:
 
 - [x] Linear Regression  
-- [ ] Logistic Regression  
+- [x] Logistic Regression  
 - [ ] Support Vector Machines (SVM)  
 - [ ] Decision Trees  
 - [ ] Random Forests  
