@@ -104,7 +104,7 @@ Available sections:
 
 ```
 .
-├── SVM_Comprehensive_Tutorial.ipynb   # Notebook with code + theory
+├── svm.ipynb   # Notebook with code + theory
 ├── main.py                            # Script version
 ├── requirements.txt                   # Dependencies
 ├── svm_outputs/                       # Auto-generated plots (after running main.py)
