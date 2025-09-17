@@ -68,6 +68,6 @@ This project is licensed under the MIT License
 
 ✨ Author
 
-Created ❤️ by Seyed Mohammadreza Mousavi
+Created ❤️ by Seyed Mohammadreza Mousavi (mohammadreza92299@gmail.com)
 
 
