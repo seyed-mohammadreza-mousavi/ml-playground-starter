@@ -54,7 +54,7 @@ Planned upcoming projects:
 - [x] Linear Regression  
 - [x] Logistic Regression  
 - [x] Support Vector Machines (SVM)  
-- [ ] Decision Trees  
+- [x] Decision Trees  
 - [ ] Random Forests  
 - [ ] Gradient Boosting (XGBoost/LightGBM)  
 - [ ] Neural Networks basics  
