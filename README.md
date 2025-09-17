@@ -13,14 +13,14 @@ The goal is to **learn by building small projects daily/weekly** and create a pe
 ## 📂 Projects
 
 ### 01. Linear Regression
-- **Folder**: [01-linear-regression](01-linear-regression)  
+- **Folder**:e.g [01-Project-name](01-linear-regression)  
 - **What’s inside**:  
-  - Gradient Descent implementation from scratch  
-  - scikit-learn comparison  
-  - Visualization of regression line  
+  - Implementation from scratch  
+  - tools  
+  - Visualization of implementation  
 - **Files**:  
-  - `linear_regression.ipynb` → tutorial notebook  
-  - `main.py` → clean script version  
+  - `project_name.ipynb` → tutorial notebook  
+  - `main.py` → clean script version
 
 ---
 
