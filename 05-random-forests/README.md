@@ -22,7 +22,7 @@ It combines predictions from many de-correlated trees to reduce variance and imp
 \hat{f}(x) = \frac{1}{B} \sum_{b=1}^{B} T_b(x)
 \]
 
-Each \(T_b(x)\) is a tree trained on a bootstrap sample with random feature selection.
+Each T<sub>b</sub>(x) is a tree trained on a bootstrap sample with random feature selection.
 
 ---
 
