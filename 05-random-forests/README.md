@@ -18,9 +18,7 @@ A **Random Forest** is an ensemble of Decision Trees trained on random subsets o
 It combines predictions from many de-correlated trees to reduce variance and improve generalization.
 
 **Mathematically:**
-\[
-\hat{f}(x) = \frac{1}{B} \sum_{b=1}^{B} T_b(x)
-\]
+**f̂(x) = (1/B) × Σ<sub>b=1</sub><sup>B</sup> T<sub>b</sub>(x)** 
 
 Each T<sub>b</sub>(x) is a tree trained on a bootstrap sample with random feature selection.
 
