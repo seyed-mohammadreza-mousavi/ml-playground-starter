@@ -56,7 +56,7 @@ Planned upcoming projects:
 - [x] Support Vector Machines (SVM)  
 - [x] Decision Trees  
 - [x] Random Forests  
-- [ ] Gradient Boosting (XGBoost/LightGBM)  
+- [x] Gradient Boosting (XGBoost/LightGBM)  
 - [ ] Neural Networks basics  
 - [ ] k-Means & Clustering  
 - [ ] PCA & Dimensionality Reduction  
