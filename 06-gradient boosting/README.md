@@ -60,7 +60,7 @@ You will see:
 ## 🧠 Author
 
 Developed by **Seyed Mohammadreza Mousavi**  
-*(AI/ML Researcher & Lecturer – MECHATEK Project)*
+*(AI/ML Researcher & Lecturer)*
 
 ---
 
