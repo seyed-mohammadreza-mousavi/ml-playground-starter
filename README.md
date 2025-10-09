@@ -58,7 +58,7 @@ Planned upcoming projects:
 - [x] Random Forests  
 - [x] Gradient Boosting (XGBoost/LightGBM)  
 - [x] Neural Networks basics  
-- [ ] k-Means & Clustering  
+- [x] k-Means & Clustering  
 - [ ] PCA & Dimensionality Reduction  
 
 📜 License
