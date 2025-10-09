@@ -123,7 +123,7 @@ $$
 ---
 
 ## 🧑‍💻 Author
-Created by **ChatGPT (GPT‑5)** for educational use.  
+Created by **SeyedMohammadreza Mousavi | error.2013@yahoo.com** for educational use.  
 You can freely modify and extend the code for your own experiments.
 
 ---
