@@ -64,9 +64,10 @@ $$
 
 ### Update Steps
 - **Assignment step (E-step):**
-  $$
-  c_i \leftarrow \arg\min_j \lVert x_i - \mu_j \rVert_2^2
-  $$
+
+$$
+c_i \leftarrow \arg\min_{j} \, \lVert x_i - \mu_j \rVert_2^2
+$$
 
 - **Update step (M-step):**
   $$
