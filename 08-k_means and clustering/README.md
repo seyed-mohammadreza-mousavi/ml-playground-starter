@@ -109,7 +109,7 @@ sklearn KMeans -> inertia: 2465.32, iterations: 11
 
 ## 🧑‍💻 Author
 
-Created by **ChatGPT (GPT‑5)** — for educational and research purposes.  
+Created by **SeyedMohammadreza Mousavi | error.2013@yahoo.com** — for educational and research purposes.  
 You are free to modify, extend, and use it for learning.
 
 ---
