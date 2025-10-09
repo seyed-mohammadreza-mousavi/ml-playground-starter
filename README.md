@@ -57,7 +57,7 @@ Planned upcoming projects:
 - [x] Decision Trees  
 - [x] Random Forests  
 - [x] Gradient Boosting (XGBoost/LightGBM)  
-- [ ] Neural Networks basics  
+- [x] Neural Networks basics  
 - [ ] k-Means & Clustering  
 - [ ] PCA & Dimensionality Reduction  
 
