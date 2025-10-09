@@ -70,9 +70,10 @@ c_i \leftarrow \arg\min_{j} \, \lVert x_i - \mu_j \rVert_2^2
 $$
 
 - **Update step (M-step):**
-  $$
-  \mu_j \leftarrow \frac{1}{|C_j|} \sum_{i:c_i=j} x_i
-  $$
+
+$$
+\mu_j \leftarrow \frac{1}{|C_j|} \sum_{i:\, c_i = j} x_i
+$$
 
 ### K-Means++ Initialization
 Improves centroid initialization using weighted sampling based on squared distances.
