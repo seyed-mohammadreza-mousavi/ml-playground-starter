@@ -92,16 +92,21 @@ $$
 
 ---
 
-### Backpropagation
+**Backpropagation**
+
 $$
 h = f(u), \quad u = W x + b
 $$
-Upstream gradient \( \delta = \frac{\partial \ell}{\partial h} \)
 
-Then
+Upstream gradient:
+$$
+\delta = \frac{\partial \ell}{\partial h}
+$$
+
+Then:
 $$
 \frac{\partial \ell}{\partial u} = \delta \odot f'(u), \quad
-\frac{\partial \ell}{\partial W} = (\delta \odot f'(u))x^\top, \quad
+\frac{\partial \ell}{\partial W} = (\delta \odot f'(u))\,x^\top, \quad
 \frac{\partial \ell}{\partial b} = \delta \odot f'(u)
 $$
 
