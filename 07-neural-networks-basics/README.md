@@ -76,15 +76,17 @@ $$
 z = w^\top x + b, \quad \hat{y} = \sigma(z) = \frac{1}{1 + e^{-z}}
 $$
 
-Loss:
+**Loss:**
+
 $$
-\ell = -[y \log(\hat{y}) + (1-y)\log(1-\hat{y})]
+\ell = -\big[\,y \log(\hat{y}) + (1 - y)\log(1 - \hat{y})\,\big]
 $$
 
-Gradients:
+**Gradients:**
+
 $$
 \frac{\partial \ell}{\partial z} = \hat{y} - y, \quad
-\frac{\partial \ell}{\partial w} = (\hat{y}-y)x, \quad
+\frac{\partial \ell}{\partial w} = (\hat{y} - y)x, \quad
 \frac{\partial \ell}{\partial b} = \hat{y} - y
 $$
 
