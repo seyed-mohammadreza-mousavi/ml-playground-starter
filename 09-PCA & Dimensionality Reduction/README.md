@@ -23,28 +23,20 @@ Given a dataset $X \in \mathbb{R}^{n \times d}$ with $n$ samples and $d$ feature
 ### Steps:
 
 1. **Standardize** the data (zero mean, unit variance):  
-   $$
-   X_{std} = X - \mu
-   $$
+   $X_{std} = X - \mu$
 
 2. **Compute the covariance matrix:**  
-   $$
-   \Sigma = \frac{1}{n-1} X_{std}^T X_{std}
-   $$
+   $\Sigma = \frac{1}{n-1} X_{std}^T X_{std}$
 
 3. **Eigen decomposition** of the covariance matrix:  
-   $$
-   \Sigma v = \lambda v
-   $$
+   $\Sigma v = \lambda v$  
    - $v$: eigenvectors (principal directions)  
    - $\lambda$: eigenvalues (explained variance)
 
 4. **Sort eigenvectors** by descending eigenvalues.
 
 5. **Project** data onto the top-$k$ components:  
-   $$
-   X_{proj} = X_{std} W_k
-   $$
+   $X_{proj} = X_{std} W_k$
 
 Where $W_k$ is the matrix of the top-$k$ eigenvectors.
 
