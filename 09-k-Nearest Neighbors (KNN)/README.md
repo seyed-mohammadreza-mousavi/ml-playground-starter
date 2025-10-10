@@ -16,7 +16,7 @@ This project demonstrates a **complete implementation of the K-Nearest Neighbors
 
 ## 🧮 Mathematical Foundation
 
-For two data points \(x_i\) and \(x_j\) in \(d\)-dimensional space:
+For two data points \( x_i \) and \( x_j \) in a \( d \)-dimensional space:
 
 \[
 d(x_i, x_j) = \sqrt{\sum_{k=1}^{d} (x_{ik} - x_{jk})^2}
