@@ -16,11 +16,13 @@ This project demonstrates a **complete implementation of the K-Nearest Neighbors
 
 ## 🧮 Mathematical Foundation
 
-For two data points \( x_i \) and \( x_j \) in a \( d \)-dimensional space:
-
+For two data points \( \mathbf{x}_i, \mathbf{x}_j \in \mathbb{R}^d \), their Euclidean distance is
 \[
-d(x_i, x_j) = \sqrt{\sum_{k=1}^{d} (x_{ik} - x_{jk})^2}
+d(\mathbf{x}_i,\mathbf{x}_j)
+= \lVert \mathbf{x}_i - \mathbf{x}_j \rVert_2
+= \sqrt{\sum_{k=1}^{d}\big(x_{i,k} - x_{j,k}\big)^2 } \, .
 \]
+
 
 ### Algorithm Steps
 1. Choose the number of neighbors **K**.  
