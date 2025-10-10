@@ -16,13 +16,14 @@ This project demonstrates a **complete implementation of the K-Nearest Neighbors
 
 ## 🧮 Mathematical Foundation
 
-For two data points \( \mathbf{x}_i, \mathbf{x}_j \in \mathbb{R}^d \), their Euclidean distance is:
+For two data points $\mathbf{x}_i, \mathbf{x}_j \in \mathbb{R}^d$, their Euclidean distance is:
 
-\[
-d(\mathbf{x}_i, \mathbf{x}_j)
-= \lVert \mathbf{x}_i - \mathbf{x}_j \rVert_2
-= \sqrt{\sum_{k=1}^{d} \left( x_{i,k} - x_{j,k} \right)^2 } \, .
-\]
+$$
+d(\mathbf{x}_i,\mathbf{x}_j)
+= \left\| \mathbf{x}_i - \mathbf{x}_j \right\|_2
+= \sqrt{ \sum_{k=1}^{d} \left( x_{i,k} - x_{j,k} \right)^2 }.
+$$
+
 
 
 
