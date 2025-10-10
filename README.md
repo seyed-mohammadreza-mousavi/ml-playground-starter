@@ -61,7 +61,7 @@ Planned upcoming projects:
 - [x] k-Means & Clustering  
 - [x] PCA & Dimensionality Reduction  
 - [x] Naive Bayes Classifiers
-- [ ] k-Nearest Neighbors (KNN)
+- [x] k-Nearest Neighbors (KNN)
 - [ ] Linear Discriminant Analysis (LDA)
 - [ ] Quadratic Discriminant Analysis (QDA)
 - [ ] Polynomial Regression
