@@ -59,7 +59,25 @@ Planned upcoming projects:
 - [x] Gradient Boosting (XGBoost/LightGBM)  
 - [x] Neural Networks basics  
 - [x] k-Means & Clustering  
-- [ ] PCA & Dimensionality Reduction  
+- [x] PCA & Dimensionality Reduction  
+- [x] Naive Bayes Classifiers
+- [ ] k-Nearest Neighbors (KNN)
+- [ ] Linear Discriminant Analysis (LDA)
+- [ ] Quadratic Discriminant Analysis (QDA)
+- [ ] Polynomial Regression
+- [ ] Regularization Techniques (Ridge, Lasso, ElasticNet)
+- [ ] Support Vector Regression (SVR)
+- [ ] Bagging & Ensemble Methods
+- [ ] AdaBoost Classifier
+- [ ] Stacking & Blending Models
+- [ ] Gaussian Mixture Models (GMM)
+- [ ] Hierarchical Clustering
+- [ ] DBSCAN Clustering
+- [ ] t-SNE & UMAP Visualization
+- [ ] Principal Component Regression (PCR)
+- [ ] Autoencoders (Representation Learning)
+- [ ] Reinforcement Learning Basics (Q-Learning)
+- [ ] Time Series Forecasting (ARIMA, LSTM)
 
 📜 License
 
@@ -69,5 +87,3 @@ This project is licensed under the MIT License
 ✨ Author
 
 Created ❤️ by Seyed Mohammadreza Mousavi (mohammadreza92299@gmail.com)
-
-
