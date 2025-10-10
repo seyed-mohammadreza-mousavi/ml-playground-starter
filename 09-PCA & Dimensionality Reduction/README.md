@@ -38,7 +38,7 @@ Given a dataset $X \in \mathbb{R}^{n \times d}$ with $n$ samples and $d$ feature
 5. **Project** data onto the top-$k$ components:  
    $X_{proj} = X_{std} W_k$
 
-Where $W_k$ is the matrix of the top-$k$ eigenvectors.
+Where $W_k$ is the matrix of the top-k eigenvectors.
 
 ---
 
