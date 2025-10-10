@@ -48,7 +48,7 @@ Where $W_k$ is the matrix of the top-k eigenvectors.
 PCA/
 │
 ├── PCA_Dimensionality_Reduction.ipynb   # Full notebook with math, code, and visuals
-├── main_pca.py                          # Python script (clean runnable version)
+├── main.py                          # Python script (clean runnable version)
 └── README.md                            # Project documentation
 ```
 
