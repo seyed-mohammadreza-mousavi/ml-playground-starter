@@ -75,17 +75,17 @@ README.md          # This file
 
 ## 🧠 Theory Recap
 
-Naive Bayes is derived from Bayes’ theorem:
+\section*{Naive Bayes Formulation}
 
-\[
-P(y \mid \mathbf{x}) = \frac{P(\mathbf{x} \mid y) P(y)}{P(\mathbf{x})}
-\]
+Naive Bayes is derived from \textbf{Bayes' theorem}:
+\begin{equation}
+P(y \mid \mathbf{x}) = \frac{P(\mathbf{x} \mid y) \, P(y)}{P(\mathbf{x})}
+\end{equation}
 
-The **Naive** assumption states that features are conditionally independent given the class:
-
-\[
+The \textbf{naive assumption} states that features are conditionally independent given the class:
+\begin{equation}
 P(\mathbf{x} \mid y) = \prod_j P(x_j \mid y)
-\]
+\end{equation}
 
 This simplification makes Naive Bayes extremely efficient and robust for high-dimensional data.
 
@@ -93,6 +93,6 @@ This simplification makes Naive Bayes extremely efficient and robust for high-di
 
 ## 🧰 Author
 
-Developed by **Reza Mousavi (MECHATEK)**  
+Developed by **SeyedMohammadreza Mousavi**  
 For educational and research purposes in machine learning and pattern recognition.
 
