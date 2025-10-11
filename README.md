@@ -62,7 +62,7 @@ Planned upcoming projects:
 - [x] PCA & Dimensionality Reduction  
 - [x] Naive Bayes Classifiers
 - [x] k-Nearest Neighbors (KNN)
-- [ ] Linear Discriminant Analysis (LDA)
+- [x] Linear Discriminant Analysis (LDA)
 - [ ] Quadratic Discriminant Analysis (QDA)
 - [ ] Polynomial Regression
 - [ ] Regularization Techniques (Ridge, Lasso, ElasticNet)
