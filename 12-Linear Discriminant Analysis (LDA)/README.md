@@ -30,10 +30,14 @@ $$
 The log-posterior simplifies to a **linear discriminant function**:
 
 $$
-g_c(\mathbf{x}) = \mathbf{x}^{\top}\boldsymbol{\Sigma}^{-1}\boldsymbol{\mu}_c
-- \tfrac{1}{2}\,\boldsymbol{\mu}_c^{\top}\boldsymbol{\Sigma}^{-1}\boldsymbol{\mu}_c
-+ \log \pi_c
+\begin{aligned}
+g_c(\mathbf{x})
+&= \mathbf{x}^{\top}\boldsymbol{\Sigma}^{-1}\boldsymbol{\mu}_c \\
+&\quad - \tfrac{1}{2}\,\boldsymbol{\mu}_c^{\top}\boldsymbol{\Sigma}^{-1}\boldsymbol{\mu}_c \\
+&\quad + \log \pi_c
+\end{aligned}
 $$
+
 
 
 
