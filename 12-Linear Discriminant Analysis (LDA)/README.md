@@ -30,10 +30,11 @@ $$
 The log-posterior simplifies to a **linear discriminant function**:
 
 $$
-g_c(\mathbf{x}) = \mathbf{x}^\top \boldsymbol{\Sigma}^{-1}\boldsymbol{\mu}_c
-- \tfrac{1}{2}\boldsymbol{\mu}_c^\top \boldsymbol{\Sigma}^{-1}\boldsymbol{\mu}_c
+g_c(\mathbf{x}) = \mathbf{x}^{\top}\boldsymbol{\Sigma}^{-1}\boldsymbol{\mu}_c
+- \tfrac{1}{2}\,\boldsymbol{\mu}_c^{\top}\boldsymbol{\Sigma}^{-1}\boldsymbol{\mu}_c
 + \log \pi_c
 $$
+
 
 
 ---
@@ -96,5 +97,5 @@ Accuracy is printed for both the from-scratch model and `sklearn` implementation
 
 ## 🧑‍💻 Author
 
-Developed by **ChatGPT (GPT‑5)** — complete theoretical and implementation guide for Linear Discriminant Analysis.
+Developed by **SeyedMohammadreza Mousavi** — complete theoretical and implementation guide for Linear Discriminant Analysis.
 
