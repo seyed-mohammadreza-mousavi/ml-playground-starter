@@ -23,12 +23,9 @@ $$
 The discriminant function used for classification is:
 
 $$
-g_c(\mathbf{x}) =
--\tfrac{1}{2}\log\!\big|\boldsymbol{\Sigma}_c\big|
--\tfrac{1}{2}(\mathbf{x}-\boldsymbol{\mu}_c)^\top
-\boldsymbol{\Sigma}_c^{-1}(\mathbf{x}-\boldsymbol{\mu}_c)
-+ \log \pi_c
+g_c(\mathbf{x}) = -\tfrac{1}{2}\log\!\big|\boldsymbol{\Sigma}_c\big| - \tfrac{1}{2}(\mathbf{x}-\boldsymbol{\mu}_c)^\top \boldsymbol{\Sigma}_c^{-1}(\mathbf{x}-\boldsymbol{\mu}_c) + \log \pi_c
 $$
+
 
 
 The class prediction rule is:
