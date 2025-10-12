@@ -142,5 +142,5 @@ Feel free to reuse and adapt with proper attribution.
 
 ---
 
-**Author:** Reza / MECHATEK  
+**Author:** SeyedMohammadreza Mousavi  
 **Date:** 2025-10-12
