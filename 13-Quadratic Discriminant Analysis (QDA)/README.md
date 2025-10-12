@@ -13,23 +13,28 @@ Unlike Linear Discriminant Analysis (LDA), QDA allows **different covariance mat
 ### Core Assumptions
 
 For each class \( c \in \{1,\ldots,C\} \):
-$$
+
+\[
 p(\mathbf{x}\mid y=c) = \mathcal{N}(\mathbf{x};\boldsymbol{\mu}_c,\boldsymbol{\Sigma}_c)
 \quad\text{and}\quad
 P(y=c)=\pi_c
-$$
+\]
 
 The discriminant function used for classification is:
-$$
-g_c(\mathbf{x}) = -\frac{1}{2}\log|\boldsymbol{\Sigma}_c|
--\frac{1}{2}(\mathbf{x}-\boldsymbol{\mu}_c)^\top \boldsymbol{\Sigma}_c^{-1} (\mathbf{x}-\boldsymbol{\mu}_c)
+
+\[
+g_c(\mathbf{x}) =
+-\frac{1}{2}\log|\boldsymbol{\Sigma}_c|
+-\frac{1}{2}(\mathbf{x}-\boldsymbol{\mu}_c)^\top
+\boldsymbol{\Sigma}_c^{-1}(\mathbf{x}-\boldsymbol{\mu}_c)
 + \log \pi_c
-$$
+\]
 
 The class prediction rule is:
-$$
+
+\[
 \hat{y} = \arg\max_c g_c(\mathbf{x})
-$$
+\]
 
 ---
 
