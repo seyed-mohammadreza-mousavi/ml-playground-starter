@@ -63,8 +63,8 @@ Planned upcoming projects:
 - [x] Naive Bayes Classifiers
 - [x] k-Nearest Neighbors (KNN)
 - [x] Linear Discriminant Analysis (LDA)
-- [ ] Quadratic Discriminant Analysis (QDA)
-- [ ] Polynomial Regression
+- [x] Quadratic Discriminant Analysis (QDA)
+- [x] Polynomial Regression
 - [ ] Regularization Techniques (Ridge, Lasso, ElasticNet)
 - [ ] Support Vector Regression (SVR)
 - [ ] Bagging & Ensemble Methods
