@@ -65,8 +65,8 @@ Planned upcoming projects:
 - [x] Linear Discriminant Analysis (LDA)
 - [x] Quadratic Discriminant Analysis (QDA)
 - [x] Polynomial Regression
-- [ ] Regularization Techniques (Ridge, Lasso, ElasticNet)
-- [ ] Support Vector Regression (SVR)
+- [x] Regularization Techniques (Ridge, Lasso, ElasticNet)
+- [x] Support Vector Regression (SVR)
 - [ ] Bagging & Ensemble Methods
 - [ ] AdaBoost Classifier
 - [ ] Stacking & Blending Models
