@@ -13,7 +13,8 @@ It finds a function $f(\mathbf{x})$ that deviates from the actual targets $y_i$ 
 
 Flatness means minimizing the norm of the weight vector $\mathbf{w}$, leading to the following **optimization problem**:
 
-$$ \min_{\mathbf{w}, b, \xi_{i}, \xi_{i}^*} \frac{1}{2}\|\mathbf{w}\|^2 + C \sum_{i=1}^{n} (\xi_{i} + \xi_{i}^*) $$
+$$ \min_{\mathbf{w},\, b,\, \xi_{i},\, \xi_{i}^{*}} \frac{1}{2}\|\mathbf{w}\|^{2} + C \sum_{i=1}^{n} (\xi_{i} + \xi_{i}^{*}) $$
+
 
 subject to the constraints:
 
