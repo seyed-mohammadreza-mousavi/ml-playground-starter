@@ -15,9 +15,10 @@ Flatness means minimizing the norm of the weight vector $\mathbf{w}$, leading to
 
 $$
 \begin{aligned}
-\min_{w, b, \xi, \xi^{*}}\;& \tfrac{1}{2}\|w\|^{2} + C \sum_{i=1}^{n} (\xi_{i} + \xi_{i}^{*})
+\min_{w,\, b,\, \xi,\, \xi^{*}}\;& \tfrac{1}{2}\|w\|^{2} + C \sum_{i=1}^{n} (\xi_{i} + \xi_{i}^{*})
 \end{aligned}
 $$
+
 
 
 
