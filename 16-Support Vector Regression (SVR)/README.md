@@ -13,17 +13,12 @@ It finds a function $f(\mathbf{x})$ that deviates from the actual targets $y_i$ 
 
 Flatness means minimizing the norm of the weight vector $\mathbf{w}$, leading to the following **optimization problem**:
 
-$$ \min_{\mathbf{w}, b, \xi_i, \xi_i^*} \frac{1}{2}\|\mathbf{w}\|^2 + C \sum_{i=1}^{n} (\xi_i + \xi_i^*) $$
+$$ \min_{\mathbf{w}, b, \xi_{i}, \xi_{i}^*} \frac{1}{2}\|\mathbf{w}\|^2 + C \sum_{i=1}^{n} (\xi_{i} + \xi_{i}^*) $$
 
 subject to the constraints:
 
-$$
-\begin{aligned}
-y_i - \mathbf{w}^\top \phi(\mathbf{x}_i) - b &\le \epsilon + \xi_i, \\
-\mathbf{w}^\top \phi(\mathbf{x}_i) + b - y_i &\le \epsilon + \xi_i^*, \\
-\xi_i, \xi_i^* &\ge 0, \quad i=1, \dots, n
-\end{aligned}
-$$
+$$ y_{i} - \mathbf{w}^\top \phi(\mathbf{x}_{i}) - b \le \epsilon + \xi_{i} \\ \mathbf{w}^\top \phi(\mathbf{x}_{i}) + b - y_{i} \le \epsilon + \xi_{i}^* \\ \xi_{i}, \xi_{i}^* \ge 0, \quad i=1, \dots, n $$
+
 
 - $C$ — regularization parameter controlling the trade-off between flatness and tolerance to deviations  
 - $\epsilon$ — defines the width of the **$\epsilon$-insensitive tube**  
@@ -136,9 +131,7 @@ python main.py
 
 ## 🧠 Author
 
-**Seyed Mohammadreza Mousavi (Reza)**  
-Lecturer in AI/ML | Autonomous Vehicle Algorithm Engineer  
-🔗 [LinkedIn](https://www.linkedin.com) | [Telegram](https://t.me/mechatek)
+**SeyedMohammadreza Mousavi (Reza)**  
 
 ---
 
