@@ -16,6 +16,7 @@ Flatness means minimizing the norm of the weight vector $\mathbf{w}$, leading to
 $$ \min_{\mathbf{w},\, b,\, \xi_{i},\, \xi_{i}^{*}} \frac{1}{2}\|\mathbf{w}\|^{2} + C \sum_{i=1}^{n} (\xi_{i} + \xi_{i}^{*}) $$
 
 
+
 subject to the constraints:
 
 $$ y_{i} - \mathbf{w}^\top \phi(\mathbf{x}_{i}) - b \le \epsilon + \xi_{i} \\ \mathbf{w}^\top \phi(\mathbf{x}_{i}) + b - y_{i} \le \epsilon + \xi_{i}^* \\ \xi_{i}, \xi_{i}^* \ge 0, \quad i=1, \dots, n $$
