@@ -31,11 +31,14 @@ $$ y_{i} - \mathbf{w}^\top \phi(\mathbf{x}_{i}) - b \le \epsilon + \xi_{i} \\ \m
 
 Using Lagrange multipliers $(\alpha_i, \alpha_i^*)$, we obtain the **dual optimization problem**:
 
-$$ \max_{\alpha,\, \alpha^{*}} -\frac{1}{2}\sum_{i=1}^{n}\sum_{j=1}^{n}(\alpha_{i}-\alpha_{i}^{*})(\alpha_{j}-\alpha_{j}^{*})K(\mathbf{x}_{i},\mathbf{x}_{j}) $$
-
-$$ -\epsilon\sum_{i=1}^{n}(\alpha_{i}+\alpha_{i}^{*}) + \sum_{i=1}^{n}y_{i}(\alpha_{i}-\alpha_{i}^{*}) $$
-
-$$ \text{s.t. } \sum_{i=1}^{n}(\alpha_{i}-\alpha_{i}^{*})=0, \quad 0 \le \alpha_{i}, \alpha_{i}^{*} \le C $$
+$$
+\begin{aligned}
+g_c(\mathbf{x})
+&= \mathbf{x}^{\top}\boldsymbol{\Sigma}^{-1}\boldsymbol{\mu}_c \\
+&\quad - \tfrac{1}{2}\boldsymbol{\mu}_c^{\top}\boldsymbol{\Sigma}^{-1}\boldsymbol{\mu}_c \\
+&\quad + \log \pi_c
+\end{aligned}
+$$
 
 
 
