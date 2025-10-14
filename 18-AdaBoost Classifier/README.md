@@ -20,9 +20,7 @@ $$
 
 The final prediction is given by:
 
-$$
-\hat{y}(\mathbf{x}) = \operatorname{sign}\!\left(F_{T}(\mathbf{x})\right)
-$$
+y-hat(x) = sign( F-T(x) )
 
 AdaBoost minimizes the **exponential loss** over all training samples:
 
@@ -120,9 +118,7 @@ $$
 
 The final classifier is obtained as:
 
-$$
-\hat{y}(\mathbf{x}) = \operatorname{sign}\!\left(F_{T}(\mathbf{x})\right)
-$$
+y_hat(x) = sign(F_T(x))
 
 ---
 
