@@ -24,9 +24,8 @@ f_hat_bag(x) = (1 / B) * sum_{b=1..B} h^(b)(x)
 
 For binary classification (majority voting):
 
-$$
-\hat{y}_{\text{bag}}(\mathbf{x}) = \operatorname*{mode}\big(h^{(1)}(\mathbf{x}), h^{(2)}(\mathbf{x}), \ldots, h^{(B)}(\mathbf{x})\big)
-$$
+y_hat_bag(x) = mode( h^(1)(x), h^(2)(x), ..., h^(B)(x) )
+
 
 If each base learner outputs class probabilities $\hat{p}^{(b)}(y \mid \mathbf{x})$, we can average probabilities and take the $\arg\max_y$.
 
@@ -36,19 +35,13 @@ If each base learner outputs class probabilities $\hat{p}^{(b)}(y \mid \mathbf{x
 
 The expected mean squared error (MSE) decomposes as:
 
-$$
-\begin{aligned}
-\mathbb{E}\big[(Y - \hat{f}(\mathbf{x}))^2\big]
-&= \operatorname{Bias}[\hat{f}(\mathbf{x})]^2 + \operatorname{Var}[\hat{f}(\mathbf{x})] + \sigma^2
-\end{aligned}
-$$
+E[(Y - f_hat(x))^2] = Bias[f_hat(x)]^2 + Var[f_hat(x)] + sigma^2
+
 
 If we average $B$ estimators $\hat{f}^{(b)}$ with variance $\tau^2$ and pairwise correlation $\rho$, then:
 
-$$
-\operatorname{Var}\left[ \frac{1}{B} \sum_{b=1}^{B} \hat{f}^{(b)} \right]
-= \tau^2 \left( \rho + \frac{1 - \rho}{B} \right)
-$$
+Var[ (1 / B) * sum_{b=1..B} f_hat^(b) ] = tau^2 * ( rho + (1 - rho) / B )
+
 
 Thus, as $B \to \infty$, the variance approaches $\rho \tau^2$. Bagging helps most when base learners are **high-variance** and **weakly correlated**.
 
@@ -122,10 +115,8 @@ $$
 \hat{f}_{\text{bag}}(\mathbf{x}) = \frac{1}{B} \sum_{b=1}^{B} h^{(b)}(\mathbf{x})
 $$
 
-$$
-\operatorname{Var}\left[ \frac{1}{B} \sum_{b=1}^{B} \hat{f}^{(b)} \right]
-= \tau^2 \left( \rho + \frac{1 - \rho}{B} \right)
-$$
+Var[ (1 / B) * sum_{b=1..B} f_hat^(b) ] = tau^2 * ( rho + (1 - rho) / B )
+
 
 $$
 \Pr\{\text{OOB}\} \approx e^{-1} \approx 0.368
