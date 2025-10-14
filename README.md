@@ -67,8 +67,8 @@ Planned upcoming projects:
 - [x] Polynomial Regression
 - [x] Regularization Techniques (Ridge, Lasso, ElasticNet)
 - [x] Support Vector Regression (SVR)
-- [ ] Bagging & Ensemble Methods
-- [ ] AdaBoost Classifier
+- [x] Bagging & Ensemble Methods
+- [x] AdaBoost Classifier
 - [ ] Stacking & Blending Models
 - [ ] Gaussian Mixture Models (GMM)
 - [ ] Hierarchical Clustering
