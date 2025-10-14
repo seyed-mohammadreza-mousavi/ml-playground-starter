@@ -15,7 +15,7 @@ It includes:
 
 Bagging (Bootstrap Aggregating) reduces variance by training $B$ base learners on **bootstrap samples** of the original data and aggregating their predictions.
 
-Given a dataset $$\mathcal{D} = \{ (\mathbf{x}_i, y_i) \}_{i=1}^{n}$$, each bootstrap sample $\mathcal{D}^{(b)}$ is formed by sampling $n$ points **with replacement**.
+Given a dataset $\mathcal{D} = \{ (\mathbf{x}_i, y_i) \}_{i=1}^{n}$, each bootstrap sample $\mathcal{D}^{(b)}$ is formed by sampling $n$ points **with replacement**.
 
 For regression, the bagged predictor is defined as:
 
