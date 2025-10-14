@@ -19,9 +19,8 @@ Given a dataset D = { (x_i, y_i) : i = 1,...,n },, each bootstrap sample $\mathc
 
 For regression, the bagged predictor is defined as:
 
-$$
-\hat{f}_{\text{bag}}(\mathbf{x}) = \frac{1}{B} \sum_{b=1}^{B} h^{(b)}(\mathbf{x})
-$$
+f_hat_bag(x) = (1 / B) * sum_{b=1..B} h^(b)(x)
+
 
 For binary classification (majority voting):
 
