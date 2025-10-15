@@ -69,7 +69,7 @@ Planned upcoming projects:
 - [x] Support Vector Regression (SVR)
 - [x] Bagging & Ensemble Methods
 - [x] AdaBoost Classifier
-- [ ] Stacking & Blending Models
+- [x] Stacking & Blending Models
 - [ ] Gaussian Mixture Models (GMM)
 - [ ] Hierarchical Clustering
 - [ ] DBSCAN Clustering
