@@ -70,7 +70,7 @@ Planned upcoming projects:
 - [x] Bagging & Ensemble Methods
 - [x] AdaBoost Classifier
 - [x] Stacking & Blending Models
-- [ ] Gaussian Mixture Models (GMM)
+- [x] Gaussian Mixture Models (GMM)
 - [ ] Hierarchical Clustering
 - [ ] DBSCAN Clustering
 - [ ] t-SNE & UMAP Visualization
