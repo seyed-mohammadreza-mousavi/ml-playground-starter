@@ -21,13 +21,13 @@ We consider a dataset X = {x₁, x₂, …, xₙ} where each xᵢ is a vector in
 ### Common Distance Metrics
 
 - **Euclidean Distance**
-  $$ d_2(\\mathbf{a}, \\mathbf{b}) = \\sqrt{\\sum_{k=1}^{d} (a_k - b_k)^2} $$
+  d₂(a, b) = square root of the sum from k = 1 to d of (aₖ − bₖ)²
 
 - **Manhattan Distance**
-  $$ d_1(\\mathbf{a}, \\mathbf{b}) = \\sum_{k=1}^{d} |a_k - b_k| $$
+  d₁(a, b) = sum from k = 1 to d of |aₖ − bₖ|
 
 - **Cosine Distance**
-  $$ d_{\\text{cos}}(\\mathbf{a}, \\mathbf{b}) = 1 - \\frac{\\mathbf{a}^T \\mathbf{b}}{\\|\\mathbf{a}\\| \\; \\|\\mathbf{b}\\|} $$
+  d_cos(a, b) = 1 − (aᵀb) / (‖a‖ × ‖b‖)
 
 ---
 
