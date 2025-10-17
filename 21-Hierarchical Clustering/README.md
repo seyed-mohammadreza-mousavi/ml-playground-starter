@@ -36,17 +36,16 @@ We consider a dataset X = {x₁, x₂, …, xₙ} where each xᵢ is a vector in
 Let $A$ and $B$ be two clusters. Define their inter-cluster dissimilarity $d(A,B)$ as one of the following:
 
 - **Single Linkage**  
-  $$ d_{\\text{single}}(A,B) = \\min_{\\mathbf{x}\\in A,\\,\\mathbf{y}\\in B} d(\\mathbf{x}, \\mathbf{y}) $$
+  d_single(A, B) = the minimum distance between any point x in cluster A and any point y in cluster B.
 
 - **Complete Linkage**  
-  $$ d_{\\text{complete}}(A,B) = \\max_{\\mathbf{x}\\in A,\\,\\mathbf{y}\\in B} d(\\mathbf{x}, \\mathbf{y}) $$
+  d_complete(A, B) = the maximum distance between any point x in A and any point y in B.
 
 - **Average Linkage (UPGMA)**  
-  $$ d_{\\text{average}}(A,B) = \\frac{1}{|A|\\,|B|} \\sum_{\\mathbf{x}\\in A} \\sum_{\\mathbf{y}\\in B} d(\\mathbf{x},\\mathbf{y}) $$
+  d_average(A, B) = (1 / (|A| × |B|)) × sum of all pairwise distances d(x, y) for x in A and y in B.
 
 - **Ward’s Method (Variance-Minimizing)**  
-  $$ \\Delta(A,B) = \\frac{|A|\\,|B|}{|A| + |B|}\\,\\|\\boldsymbol{\\mu}_A - \\boldsymbol{\\mu}_B\\|_2^2 $$
-
+  Δ(A, B) = (|A| × |B|) / (|A| + |B|) × squared distance between the centroids μ_A and μ_B.
 ---
 
 ## ⚙️ Lance–Williams Recurrence
