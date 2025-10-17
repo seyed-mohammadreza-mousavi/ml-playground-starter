@@ -71,7 +71,7 @@ Planned upcoming projects:
 - [x] AdaBoost Classifier
 - [x] Stacking & Blending Models
 - [x] Gaussian Mixture Models (GMM)
-- [ ] Hierarchical Clustering
+- [x] Hierarchical Clustering
 - [ ] DBSCAN Clustering
 - [ ] t-SNE & UMAP Visualization
 - [ ] Principal Component Regression (PCR)
