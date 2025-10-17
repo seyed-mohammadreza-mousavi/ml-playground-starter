@@ -15,8 +15,7 @@ The dendrogram can be cut at any height to yield a desired number of clusters.
 
 ## 🧠 Mathematical Background
 
-We consider a dataset $X = \{\mathbf{x}_1, \ldots, \mathbf{x}_n\}$ with $\mathbf{x}_i \in \mathbb{R}^d$ and a pairwise distance $d(\mathbf{x}_i, \mathbf{x}_j)$.  
-Let $D \in \mathbb{R}^{n \times n}$ be the distance matrix with $D_{ij} = d(\mathbf{x}_i, \mathbf{x}_j)$.
+We consider a dataset X = {x₁, x₂, …, xₙ} where each xᵢ is a vector in Rᵈ (a d-dimensional real space) and we define a pairwise distance function d(xᵢ, xⱼ).
 
 
 ### Common Distance Metrics
