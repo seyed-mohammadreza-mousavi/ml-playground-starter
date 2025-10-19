@@ -73,7 +73,7 @@ Planned upcoming projects:
 - [x] Gaussian Mixture Models (GMM)
 - [x] Hierarchical Clustering
 - [x] DBSCAN Clustering
-- [ ] t-SNE & UMAP Visualization
+- [x] t-SNE & UMAP Visualization
 - [ ] Principal Component Regression (PCR)
 - [ ] Autoencoders (Representation Learning)
 - [ ] Reinforcement Learning Basics (Q-Learning)
