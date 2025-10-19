@@ -94,6 +94,6 @@ This project is licensed under the **MIT License**.
 ---
 
 ## ✨ Author
-Created with ❤️ by **Seyed Mohammadreza Mousavi**  
+Created ❤️ by **Seyed Mohammadreza Mousavi**  
 📧 [mohammadreza92299@gmail.com](mailto:mohammadreza92299@gmail.com)  
 🌐 [GitHub Profile](https://github.com/seyed-mohammadreza-mousavi)
