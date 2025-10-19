@@ -1,89 +1,99 @@
-# 🧪 ML Playground Starter
+# 🧠 ML Playground Starter
 
-A collection of **simple, self-contained machine learning projects**.  
-Each project lives in its own folder and includes:  
-- 📓 A Jupyter Notebook (explanations, math, visualizations)  
-- 🐍 A Python script (`main.py`) for clean execution  
-- 📝 A mini README with usage and theory  
+A **hands-on collection of minimal, self-contained machine learning projects** — each designed to **help you master ML concepts by building**.  
+Every project lives in its own directory and includes:
 
-The goal is to **learn by building small projects daily/weekly** and create a personal ML cookbook.
+- 📘 **Jupyter Notebook** → explanations, math, and visualizations  
+- 🐍 **Python Script (`main.py`)** → clean executable version  
+- 📝 **Mini README** → usage, theory, and notes  
+
+This repository is meant to grow into your **personal ML cookbook**, perfect for **daily or weekly practice**.  
 
 ---
 
-## 📂 Projects
+## 📂 Project Structure
 
-### 01. Linear Regression
-- **Folder**:e.g [01-Project-name](01-linear-regression)  
-- **What’s inside**:  
-  - Implementation from scratch  
-  - tools  
-  - Visualization of implementation  
-- **Files**:  
-  - `project_name.ipynb` → tutorial notebook  
-  - `main.py` → clean script version
+### Example: `01-Linear-Regression`
+
+**Includes:**
+- Implementation from scratch  
+- Helper tools and data visualization  
+- Well-documented code with explanations  
+
+**Files:**
+- `linear_regression.ipynb` → tutorial notebook  
+- `main.py` → clean script version  
 
 ---
 
 ## 🚀 Getting Started
 
-### 1. Clone the repo
-```
+### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/seyed-mohammadreza-mousavi/ml-playground-starter.git
 cd ml-playground-starter
 ```
-### 2. Set up environment
-Install dependencies:
 
-(For now: numpy, matplotlib, scikit-learn)
-
-3. Run a project
-
-Example: Linear Regression
+### 2️⃣ Install Dependencies
+For now, you’ll need:
+```bash
+pip install numpy matplotlib scikit-learn
 ```
+
+### 3️⃣ Run a Project
+Example: **Linear Regression**
+```bash
 cd 01-linear-regression
 python main.py
 ```
 
 Or open the notebook in Jupyter/Colab:
-```
+```bash
 jupyter notebook linear_regression.ipynb
 ```
-## 📌 Roadmap
-Planned upcoming projects:
 
-- [x] Linear Regression  
-- [x] Logistic Regression  
-- [x] Support Vector Machines (SVM)  
-- [x] Decision Trees  
-- [x] Random Forests  
-- [x] Gradient Boosting (XGBoost/LightGBM)  
-- [x] Neural Networks basics  
-- [x] k-Means & Clustering  
-- [x] PCA & Dimensionality Reduction  
-- [x] Naive Bayes Classifiers
-- [x] k-Nearest Neighbors (KNN)
-- [x] Linear Discriminant Analysis (LDA)
-- [x] Quadratic Discriminant Analysis (QDA)
-- [x] Polynomial Regression
-- [x] Regularization Techniques (Ridge, Lasso, ElasticNet)
-- [x] Support Vector Regression (SVR)
-- [x] Bagging & Ensemble Methods
-- [x] AdaBoost Classifier
-- [x] Stacking & Blending Models
-- [x] Gaussian Mixture Models (GMM)
-- [x] Hierarchical Clustering
-- [x] DBSCAN Clustering
-- [x] t-SNE & UMAP Visualization
-- [ ] Principal Component Regression (PCR)
-- [ ] Autoencoders (Representation Learning)
-- [ ] Reinforcement Learning Basics (Q-Learning)
-- [ ] Time Series Forecasting (ARIMA, LSTM)
+---
 
-📜 License
+## 🗺️ Roadmap
 
-This project is licensed under the MIT License
-.
+| ✅ Status | 🧩 Project | 🧠 Category |
+|:--:|:--|:--|
+| ✅ | Linear Regression | Regression |
+| ✅ | Logistic Regression | Classification |
+| ✅ | Support Vector Machines (SVM) | Classification |
+| ✅ | Decision Trees | Classification |
+| ✅ | Random Forests | Ensemble Learning |
+| ✅ | Gradient Boosting (XGBoost / LightGBM) | Ensemble Learning |
+| ✅ | Neural Networks (Basics) | Deep Learning |
+| ✅ | k-Means Clustering | Unsupervised |
+| ✅ | PCA & Dimensionality Reduction | Unsupervised |
+| ✅ | Naive Bayes Classifiers | Probabilistic Models |
+| ✅ | k-Nearest Neighbors (KNN) | Classification |
+| ✅ | Linear Discriminant Analysis (LDA) | Dimensionality Reduction |
+| ✅ | Quadratic Discriminant Analysis (QDA) | Classification |
+| ✅ | Polynomial Regression | Regression |
+| ✅ | Regularization (Ridge, Lasso, ElasticNet) | Regression |
+| ✅ | Support Vector Regression (SVR) | Regression |
+| ✅ | Bagging & Ensemble Methods | Ensemble Learning |
+| ✅ | AdaBoost Classifier | Ensemble Learning |
+| ✅ | Stacking & Blending Models | Ensemble Learning |
+| ✅ | Gaussian Mixture Models (GMM) | Unsupervised |
+| ✅ | Hierarchical Clustering | Unsupervised |
+| ✅ | DBSCAN Clustering | Unsupervised |
+| ✅ | t-SNE & UMAP Visualization | Dimensionality Reduction |
+| 🔜 | Principal Component Regression (PCR) | Regression |
+| 🔜 | Autoencoders (Representation Learning) | Deep Learning |
+| 🔜 | Reinforcement Learning (Q-Learning) | RL |
+| 🔜 | Time Series Forecasting (ARIMA, LSTM) | Time Series |
 
-✨ Author
+---
 
-Created ❤️ by Seyed Mohammadreza Mousavi (mohammadreza92299@gmail.com)
+## 📜 License
+This project is licensed under the **MIT License**.
+
+---
+
+## ✨ Author
+Created with ❤️ by **Seyed Mohammadreza Mousavi**  
+📧 [mohammadreza92299@gmail.com](mailto:mohammadreza92299@gmail.com)  
+🌐 [GitHub Profile](https://github.com/seyed-mohammadreza-mousavi)
