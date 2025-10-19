@@ -126,10 +126,3 @@ This project is released under the **MIT License**.
 Feel free to use, modify, and distribute it with attribution.
 
 ---
-
-## ✨ Author
-
-**Reza [YourLastName]**  
-AI/ML Engineer • Researcher in Explainable Machine Learning  
-📧 [your.email@example.com]  
-🌐 [your-portfolio-or-linkedin-url]
