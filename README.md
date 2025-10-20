@@ -81,7 +81,7 @@ jupyter notebook linear_regression.ipynb
 | ✅ | Hierarchical Clustering | Unsupervised |
 | ✅ | DBSCAN Clustering | Unsupervised |
 | ✅ | t-SNE & UMAP Visualization | Dimensionality Reduction |
-| 🔜 | Principal Component Regression (PCR) | Regression |
+| ✅ | Principal Component Regression (PCR) | Regression |
 | 🔜 | Autoencoders (Representation Learning) | Deep Learning |
 | 🔜 | Reinforcement Learning (Q-Learning) | RL |
 | 🔜 | Time Series Forecasting (ARIMA, LSTM) | Time Series |
