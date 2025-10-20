@@ -113,17 +113,3 @@ Top 10 coefficients (raw feature space):
 This project is licensed under the MIT License — feel free to use, modify, and distribute.
 
 ---
-
-## Author
-
-Developed by **[Your Name or Organization]**  
-If you use this project, please star ⭐ the repository and cite it in your work.
-
----
-
-## Contact
-
-For questions or collaborations, reach out via:  
-📧 your.email@example.com  
-🌐 [LinkedIn](https://www.linkedin.com/) | [GitHub](https://github.com/yourusername)
-
